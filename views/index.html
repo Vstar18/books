@@ -1,0 +1,15 @@
+{% extends './layout.html' %}
+
+{% block title %}小星星图书管理系统{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="/stylesheets/index.css">
+{% endblock %}
+
+{% block content %}
+    {% include "../components/news/list.html" %}
+{% endblock %}
+
+{% block scripts %}
+    <script scr="/scripts/index.js"></script>
+{% endblock %}
