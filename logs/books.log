@@ -30,3 +30,51 @@
 [2019-03-28T17:39:04.285] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
 [2019-03-28T18:04:54.084] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
 [2019-03-28T18:06:22.186] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-03-30T09:06:44.741] [ERROR] cheese - Error: Reserved keyword "for" attempted to be used as a variable on line 3 in file /Users/xiaoxingxing/Desktop/books/components/news/list.html.
+    at Object.exports.throwError (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:188:9)
+    at TokenParser.parseVar (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:460:13)
+    at TokenParser.parseToken (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:357:14)
+    at /Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:112:12
+    at Object.exports.each (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:45:11)
+    at TokenParser.parse (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:102:11)
+    at parseVariable (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:610:18)
+    at /Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:770:15
+    at Object.exports.each (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:755:9)
+[2019-03-30T09:07:18.881] [ERROR] cheese - Error: Reserved keyword "for" attempted to be used as a variable on line 3 in file /Users/xiaoxingxing/Desktop/books/components/news/list.html.
+    at Object.exports.throwError (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:188:9)
+    at TokenParser.parseVar (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:460:13)
+    at TokenParser.parseToken (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:357:14)
+    at /Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:112:12
+    at Object.exports.each (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:45:11)
+    at TokenParser.parse (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:102:11)
+    at parseVariable (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:610:18)
+    at /Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:770:15
+    at Object.exports.each (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:755:9)
+[2019-03-30T09:07:19.757] [ERROR] cheese - Error: Reserved keyword "for" attempted to be used as a variable on line 3 in file /Users/xiaoxingxing/Desktop/books/components/news/list.html.
+    at Object.exports.throwError (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:188:9)
+    at TokenParser.parseVar (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:460:13)
+    at TokenParser.parseToken (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:357:14)
+    at /Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:112:12
+    at Object.exports.each (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:45:11)
+    at TokenParser.parse (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:102:11)
+    at parseVariable (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:610:18)
+    at /Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:770:15
+    at Object.exports.each (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/xiaoxingxing/Desktop/books/node_modules/koa-swig/node_modules/swig-templates/lib/parser.js:755:9)
+[2019-03-30T10:15:23.455] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xiaoxingxing/Desktop/books/config/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/xiaoxingxing/Desktop/books/config/views/index.html' }
+[2019-03-30T10:15:55.020] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xiaoxingxing/Desktop/books/config/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/xiaoxingxing/Desktop/books/config/views/index.html' }
+[2019-03-30T10:16:44.297] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xiaoxingxing/Desktop/books/config/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/xiaoxingxing/Desktop/books/config/views/index.html' }

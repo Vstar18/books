@@ -3,12 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>{% block title %}{% endblock %}</title>
-
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.1.1/css/bootstrap.css">
     {% block head %} {% endblock %}
 </head>
 <body>
-    {% block content %}{% endblock %}
-    {% block scripts %}{% endblock %}
+   <div class="container">
+        {% include "../components/common/navigate.html" %}
+        {% block content %}{% endblock %}
+        {% block scripts %}{% endblock %}
+   </div>
 </body>
 
 </html>

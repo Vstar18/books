@@ -18,6 +18,7 @@ class SafeRequest {
       }
       ydfetch
       .then(res=>{
+        return res.json();
         console.log(res)
       })
       .then((json)=>{
