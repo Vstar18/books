@@ -7,9 +7,14 @@ class SafeRequest {
     this.baseURL = config.baseURL;
   }
   fetch(options){
-    console.log(this.baseURL + this.url);
     let ydfetch = fetch(this.baseURL + this.url);
-    console.log(ydfetch,'ydfetch');
+    if(options.params){
+      ydfetch = fetch(this.baseURL +  this.url,{
+        method:options.method,
+        body:options.params
+      })
+    }
+    // console.log(ydfetch);
     return new Promise((resolve,reject)=>{
       let result = {
         code:0,
@@ -19,7 +24,6 @@ class SafeRequest {
       ydfetch
       .then(res=>{
         return res.json();
-        console.log(res)
       })
       .then((json)=>{
         result.data = json;

@@ -11,9 +11,10 @@ class Create{
     this.btn = $("#js-btn");
   };
   fn(){
-    this.btn.click(function (){
-      alert(1);
-    })
+    this.btn.click(common.throttle(function (){
+      // alert(1);
+      console.log(1);
+    },10))
   }
 }
 export default Create;

@@ -78,3 +78,10 @@
   code: 'ENOENT',
   syscall: 'open',
   path: '/Users/xiaoxingxing/Desktop/books/config/views/index.html' }
+[2019-03-31T12:09:09.435] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-03-31T12:09:56.119] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-03-31T12:09:59.230] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-03-31T12:09:59.422] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-03-31T12:09:59.624] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-04-01T15:30:48.985] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }
+[2019-04-01T15:32:53.048] [ERROR] cheese - { code: -1, message: '后端通讯异常', data: [] }

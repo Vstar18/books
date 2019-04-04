@@ -11,5 +11,6 @@ module.exports = (app)=>{
 
     _.get('/test', testControllers.actionIndex());
     _.get('/add', indexControllers.actionAdd());
+    _.get('/save', indexControllers.actionSave());
   }))
 }
